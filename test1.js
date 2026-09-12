@@ -7,7 +7,7 @@ function inserirTextosNasLinhas(listaTexto) {
 
     const span = linha.querySelector('td div div div span.cell_container_product_warning');
     if (span) {
-      span.innerHTML = `<a href=https://produto.mercadolivre.com.br/${textos[index - 1]}>${textos[index - 1]}</a>`
+      span.innerHTML = `<a href="https://produto.mercadolivre.com.br/${textos[index-1]" target="_blank"}>${textos[index - 1]}</a>`
     }
   });
 }
