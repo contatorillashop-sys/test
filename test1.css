@@ -1,0 +1,4 @@
+div.pick_pack_sale_detail_info:has(> script),
+div.pick_pack_sale_detail_info:has(> script) + div{
+  display: none !important;
+}
